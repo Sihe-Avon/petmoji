@@ -1,0 +1,18 @@
+/* PetMoji Custom Styles */
+
+:root {
+    --gradient-start: #C9E4CA;
+    --gradient-middle: #F7D2C4;
+    --gradient-end: #C5CAE9;
+}
+
+body {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-middle), var(--gradient-end));
+    background-attachment: fixed;
+    color: #333;
+    background-image: radial-gradient(var(--gradient-start) 0.5px, transparent 0.5px),
+                  radial-gradient(var(--gradient-start) 0.5px, transparent 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+}

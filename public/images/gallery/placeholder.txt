@@ -1,0 +1,16 @@
+This directory will contain gallery images.
+
+In a production environment, these would be:
+1. User-generated content that has been approved for the gallery
+2. Featured examples created by the PetMoji team
+3. Images from a curated API or partner service
+
+For the MVP, you can add sample images here with the following naming convention:
+- [pet-type][number]-original.jpg - For the original pet photo
+- [pet-type][number]-[style].jpg - For the translated emotion image
+
+Example:
+- dog1-original.jpg
+- dog1-cartoon.jpg
+- cat1-original.jpg
+- cat1-watercolor.jpg
