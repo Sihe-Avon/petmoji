@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "public/**/*", "use": "@vercel/static" },
+    { "src": "src/**/*", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/js/(.*)", "dest": "/src/js/$1" },
+    { "src": "/(.*)", "dest": "/public/$1" },
+    { "src": "/.*", "dest": "/public/index.html" }
+  ]
+}
